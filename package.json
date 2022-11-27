@@ -42,6 +42,7 @@
         "electron-notarize": "^0.1.1",
         "electron-updater": "^4.3.1",
         "electron-window-state": "^5.0.3",
+        "material-ui": "^0.20.2",
         "react-masonry-css": "^1.0.14"
     },
     "main": "public/electron.js",

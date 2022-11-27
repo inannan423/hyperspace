@@ -431,7 +431,7 @@ class WelcomePage extends Component<IWelcomeProps, IWelcomeState> {
             createHyperspaceApp(
                 this.state.brandName ?? "Hyperspace",
                 scopes,
-                baseurl,
+                baseurl,    // The base URL of the Mastodon server
                 getRedirectAddress(this.state.defaultRedirectAddress)
             )
                 // If we succeeded, create a login attempt for later reference
